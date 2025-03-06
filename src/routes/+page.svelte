@@ -15,7 +15,7 @@
 
 	onMount(async () => {
 		try {
-			const response = await axios.get("http://localhost:8080/books")
+			const response = await axios.get(import.meta.env.VITE_API_URL + "books")
 			books = await response.data;
 		} catch (error) {
 			console.error(error);
