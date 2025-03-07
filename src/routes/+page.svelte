@@ -24,7 +24,12 @@
 </script>
 
 <h1>Maria Claraaaaaaaaaaa</h1>
-<p>Visite <a class="text-blue-600" href="https://www.sephora.com.br/">ESTE SITEZINHO AQUI</a> se quiser</p>
+<h3>♥♥♥♥♥♥♥♥♥ LINDA GOSTOSA TE AMO DEMAIS ♥♥♥♥♥♥♥♥♥♥</h3>
+<img src="https://c.tenor.com/bZFUIkvAaAQAAAAC/tenor.gif" alt="olhos coração">
+
+<br />
+
+<p>Visite <a class="text-blue-600" href="https://www.sephora.com.br/">ESTE SITEZINHO AQUI (se-fô-rah)</a> se quiser</p>
 
 <br />
 
