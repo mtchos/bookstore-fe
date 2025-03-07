@@ -15,16 +15,18 @@
 
 	onMount(async () => {
 		try {
-			const response = await axios.get("/api/books")
+			const response = await axios.get('/api/books');
 			books = await response.data;
 		} catch (error) {
 			console.error(error);
 		}
-	})
+	});
 </script>
 
 <h1>Maria Claraaaaaaaaaaa</h1>
-<p>Visite <a href="https://www.sephora.com.br/">ESTE SITEZINHO AQUI</a> se quiser</p>
+<p>Visite <a class="text-blue-600" href="https://www.sephora.com.br/">ESTE SITEZINHO AQUI</a> se quiser</p>
+
+<br />
 
 <div>
 	{#each books as book, index}
