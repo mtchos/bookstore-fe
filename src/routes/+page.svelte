@@ -15,24 +15,18 @@
 
 	onMount(async () => {
 		try {
-			const response = await axios.get(import.meta.env.VITE_API_URL + "books")
+			const response = await axios.get("/api/books")
 			books = await response.data;
 		} catch (error) {
 			console.error(error);
 		}
 	})
-
-	let name = 'SvelteKit';
-	let badabing = $state(0);
 </script>
 
-<h1>Welcome to {name}</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1>Maria Claraaaaaaaaaaa</h1>
+<p>Visite <a href="https://www.sephora.com.br/">ESTE SITEZINHO AQUI</a> se quiser</p>
 
 <div>
-	<div>
-		{badabing}
-	</div>
 	{#each books as book, index}
 		<div>
 			<span>#{index}</span>
